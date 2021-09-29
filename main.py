@@ -42,7 +42,7 @@ def post_response(message):
     pt.typewrite("\n", interval=.01)
 
 
-def process_response(message):
+def process_response(message): # change the option accroding to the need
     if ("hi" or "hello" or "hey") == str(message).lower():
         return "Choose from the given queries: \n A : Capital of India \n B : Capital of TN"
     elif "a" == str(message).lower():
