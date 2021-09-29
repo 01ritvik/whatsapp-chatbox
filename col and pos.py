@@ -7,3 +7,6 @@ while True:
     sleep(1)
     if posXY[0] == 0:
         break
+
+        # this program will tell axis of the cursor until and unless you move your curser where the x axis is 0
+        
