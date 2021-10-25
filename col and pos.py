@@ -8,5 +8,6 @@ while True:
     if posXY[0] == 0:
         break
 
-        # this program will tell axis of the cursor until and unless you move your curser where the x axis is 0
+        # this program will tell axis of the cursor 
+        # program will end if x-axis = 0
         
