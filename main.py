@@ -32,7 +32,7 @@ def get_message():
 def post_response(message):
     global x, y
 
-    position = pt.locateOnScreen("whatsapp/smile.png", confidence=0.6)
+    position = pt.locateOnScreen("whatsapp/smile.png", confidence=0.7)
     x = position[0]
     y = position[1]
     pt.moveTo(x + 200, y + 20, duration=.5)
@@ -78,7 +78,7 @@ def check_for_new_msg():
         else:
             print("no new messages yet")
 
-        sleep(5)
+        sleep( 5 )
 
 
 check_for_new_msg()
